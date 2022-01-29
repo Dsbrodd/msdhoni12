@@ -47,7 +47,7 @@ async def start(client, message):
             InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/Film_housc'),
             InlineKeyboardButton('💠 CHAИИΞL 💠', url='https://t.me/film_hous')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -90,7 +90,7 @@ async def start(client, message):
             InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/Film_housc'),
             InlineKeyboardButton('💠 CHAИИΞL 💠', url='https://t.me/film_hous')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
