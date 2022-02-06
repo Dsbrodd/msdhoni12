@@ -42,7 +42,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💠 SΞARCH HΞRΞ 💠', url=f'https://t.me/WHite_DevIL_87')
+            InlineKeyboardButton('💠 SΞARCH HΞRΞ 💠', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/Film_housc'),
             InlineKeyboardButton('💠 CHAИИΞL 💠', url='https://t.me/film_hous')
