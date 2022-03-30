@@ -439,7 +439,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.reply_sticker(
             sticker="CAACAgUAAxkBAAEBxBhiRKABr6uP_mqlQJ2dmlnfRThqSAACBAADwSQxMYnlHW4Ls8gQHgQ",
             reply_markup=reply_markup,
-            parse_mode='html'
         )
     elif query.data == "about":
         buttons = [[
