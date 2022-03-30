@@ -158,7 +158,13 @@ async def imdb_callback(bot: Client, quer_y: CallbackQuery):
                     text=f"{imdb.get('title')}",
                     url=imdb['url'],
                 )
-            ]
+            ],
+            [
+                InlineKeyboardButton(
+                    text=f"𝙈𝙤𝙫𝙞𝙚 𝙂𝙧𝙤𝙪𝙥",
+                    url="https://t.me/TM_cinema_company"
+                )
+            ],
         ]
     message = quer_y.message.reply_to_message or quer_y.message
     if imdb:
