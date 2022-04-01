@@ -437,12 +437,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔐 𝗖ʟᴏ𝘀ᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.reply_sticker(
-            sticker="CAACAgUAAxkBAAEBxBhiRKABr6uP_mqlQJ2dmlnfRThqSAACBAADwSQxMYnlHW4Ls8gQHgQ"
-        )
-        await query.message.edit_text(
-            text="▣▣▢"
-        )
+        await message.reply_chat_action("Typing")
+        m=await message.reply_sticker("CAACAgUAAxkBAAIscGI_NIFP4RCJvnzCmKNYrL0P76aPAAIEAAPBJDExieUdbguzyBAeBA") 
+        await asyncio.sleep(1)
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
