@@ -538,6 +538,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('♻️', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.reply_chat_action("typing")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAEB7HBiSDyNi1lniaVbHl34KQ8i7bPnoQACAQADwSQxMUzllWoqwNZvHgQ") 
+        await asyncio.sleep(1) 
+        await m.delete(1)
         total = await Media.count_documents()
         users = await db.total_users_count()
         chats = await db.total_chat_count()
@@ -551,7 +555,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
     elif query.data == "rfrsh":
-        await query.answer("Fetching MongoDb DataBase")
         await query.message.reply_chat_action("typing")
         m=await query.message.reply_sticker("CAACAgUAAxkBAAEB7HBiSDyNi1lniaVbHl34KQ8i7bPnoQACAQADwSQxMUzllWoqwNZvHgQ") 
         await asyncio.sleep(1) 
