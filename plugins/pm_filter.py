@@ -422,8 +422,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▣▣"
         )
-        await asyncio.sleep(4) 
-        await m.delete(3)
         await query.message.edit_text(
             text=script.START_TXT.format(help),
             reply_markup=reply_markup,
