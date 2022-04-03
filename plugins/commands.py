@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('𝗖ʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴ𝘀', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.reply_chat_action("typing")
+        await message.reply_chat_action("typing")
         m=await query.message.reply_sticker("CAACAgUAAxkBAAEBxBhiRKABr6uP_mqlQJ2dmlnfRThqSAACBAADwSQxMYnlHW4Ls8gQHgQ") 
         await asyncio.sleep(1) 
         await m.delete(1)
