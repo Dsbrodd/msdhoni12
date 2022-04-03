@@ -543,6 +543,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.FILESTORE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
+    elif query.data == "personal":
+        buttons = [[
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Film_hous'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/Film_housc')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.PERSONAL_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
         )
     elif query.data == "extra":
         buttons = [[
