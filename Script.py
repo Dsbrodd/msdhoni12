@@ -106,6 +106,11 @@ This module only works for my admins
 <b>👥 𝙏𝙤𝙩𝙖𝙡 𝘾𝙝𝙖𝙩𝙨 : </b> <code>{}</code>
 <b>⚙️ 𝙐𝙨𝙚𝙙 𝙎𝙩𝙤𝙧𝙖𝙜𝙚 : </b> <code>{}</code> MiB
 <b>🆓 𝙏𝙤𝙩𝙖𝙡 𝙎𝙩𝙤𝙖𝙜𝙚 : </b> <code>{}</code> MiB"""
+    FILESTORE_TXT = """<b>🗃️ File Store</b>
+<b>A ᴍᴏᴅᴜʟᴇ ᴛᴏ ꜱᴛᴏʀᴇ ғɪʟᴇꜱ ɪɴ ʙᴏᴛ ᴅᴀᴛᴀʙᴀꜱᴇ ɪɴ ꜱɪᴍᴘʟᴇ ᴍᴇᴛʜᴏᴅ<b>
+<b>📚 File Store</b>
+
+◉ /batch - reply The file link in db channel"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
