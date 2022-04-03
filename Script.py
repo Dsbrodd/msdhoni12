@@ -68,16 +68,17 @@ Fɪʟᴛᴇʀ ɪꜱ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄ�
 • /ᴄᴏɴɴᴇᴄᴛ - ᴄᴏɴɴᴇᴄᴛ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴄʜᴀᴛ ᴛᴏ ʏᴏᴜʀ PM
 • /ᴅɪꜱᴄᴏɴɴᴇᴄᴛ - ᴅɪꜱᴄᴏɴɴᴇᴄᴛ ғʀᴏᴍ ᴀ ᴄʜᴀᴛ
 • /ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ - ʟɪꜱᴛ ᴀʟʟ ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ"""
-    EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
+    EXTRAMOD_TXT = """Help: <b>Exᴛʀᴀ Mᴏᴅᴜʟᴇꜱ</b>
 
-<b>NOTE:</b>
-these are the extra features of Eva Maria
+<b>🎛 Exᴛʀᴀ Mᴏᴅᴜʟᴇꜱ</b>
 
-<b>Commands and Usage:</b>
-• /id - <code>get id of a specified user.</code>
-• /info  - <code>get information about a user.</code>
-• /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>"""
+ᴛʜᴇꜱᴇ ᴀʀᴇ ᴛʜᴇ ᴇxᴛʀᴀ ғᴇᴀᴛᴜʀᴇꜱ ᴏғ Eᴠᴀ Mᴀʀɪᴀ
+
+<b>📚 ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ</b>
+• /ɪᴅ - ɢᴇᴛ ɪᴅ ᴏғ ᴀ ꜱᴘᴇᴄɪғɪᴇᴅ ᴜꜱᴇʀ.
+• /ɪɴғᴏ - ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜꜱᴇʀ.
+• /ɪᴍᴅʙ - ɢᴇᴛ ᴛʜᴇ ғɪʟᴍ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ғʀᴏᴍ IMDʙ ꜱᴏᴜʀᴄᴇ.
+• /ꜱᴇᴀʀᴄʜ - ɢᴇᴛ ᴛʜᴇ ғɪʟᴍ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ғʀᴏᴍ ᴠᴀʀɪᴏᴜꜱ ꜱᴏᴜʀᴄᴇꜱ."""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
