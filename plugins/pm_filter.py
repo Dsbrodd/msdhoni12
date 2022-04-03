@@ -436,8 +436,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await message.reply_chat_action("typing")
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('📺 𝗖ʜᴀɴɴᴇʟ', url='https://t.me/Film_hous'),
-            InlineKeyboardButton('📺 𝗚ʀᴏᴜᴘ', url='https://t.me/Film_housc')
+            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀ', callback_data='manuelfilter'),
+            InlineKeyboardButton('ᴀᴜᴛᴏ ғɪʟᴛᴇʀ', callback_data='autofilter')
+        ], [
+            InlineKeyboardButton('🔗 ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'),
+            InlineKeyboardButton('🗞️ ᴇxᴛʀᴀ ᴍᴏᴅꜱ', callback_data='extra')
         ], [
             InlineKeyboardButton('🏠 𝗛ᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('🔐 𝗖ʟᴏ𝘀ᴇ', callback_data='close_data')
