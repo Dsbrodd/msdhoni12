@@ -445,8 +445,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ғɪʟᴇ ꜱᴛᴏʀᴇ', callback_data='store'),
             InlineKeyboardButton('ᴘᴇʀꜱᴏɴᴀʟ', callback_data='personal')
         ], [
-            InlineKeyboardButton('🏠 𝗛ᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🔐 𝗖ʟᴏ𝘀ᴇ', callback_data='close_data')
+            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('Cʟᴏꜱᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
