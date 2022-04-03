@@ -72,23 +72,23 @@ Fɪʟᴛᴇʀ ɪꜱ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄ�
 • /ɪɴғᴏ - ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜꜱᴇʀ.
 • /ɪᴍᴅʙ - ɢᴇᴛ ᴛʜᴇ ғɪʟᴍ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ғʀᴏᴍ IMDʙ ꜱᴏᴜʀᴄᴇ.
 • /ꜱᴇᴀʀᴄʜ - ɢᴇᴛ ᴛʜᴇ ғɪʟᴍ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ғʀᴏᴍ ᴠᴀʀɪᴏᴜꜱ ꜱᴏᴜʀᴄᴇꜱ."""
-    ADMIN_TXT = """Help: <b>Admin mods</b>
+    ADMIN_TXT = """<b>🧑‍💻 Aᴅᴍɪɴ ᴍᴏᴅꜱ</b>
 
-<b>NOTE:</b>
-This module only works for my admins
+Tʜɪꜱ ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋꜱ ғᴏʀ ᴍʏ ᴀᴅᴍɪɴꜱ
 
-<b>Commands and Usage:</b>
-• /logs - <code>to get the rescent errors</code>
-• /stats - <code>to get status of files in db.</code>
-• /delete - <code>to delete a specific file from db.</code>
-• /users - <code>to get list of my users and ids.</code>
-• /chats - <code>to get list of the my chats and ids </code>
-• /leave  - <code>to leave from a chat.</code>
-• /disable  -  <code>do disable a chat.</code>
-• /ban  - <code>to ban a user.</code>
-• /unban  - <code>to unban a user.</code>
-• /channel - <code>to get list of total connected channels</code>
-• /broadcast - <code>to broadcast a message to all users</code>"""
+<b>📚 ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ</b>
+
+• /ʟᴏɢꜱ - ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʀᴇꜱᴄᴇɴᴛ ᴇʀʀᴏʀꜱ
+• /ꜱᴛᴀᴛꜱ - ᴛᴏ ɢᴇᴛ ꜱᴛᴀᴛᴜꜱ ᴏғ ғɪʟᴇꜱ ɪɴ ᴅʙ.
+• /ᴅᴇʟᴇᴛᴇ - ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ ꜱᴘᴇᴄɪғɪᴄ ғɪʟᴇ ғʀᴏᴍ ᴅʙ.
+• /ᴜꜱᴇʀꜱ - ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏғ ᴍʏ ᴜꜱᴇʀꜱ ᴀɴᴅ ɪᴅꜱ.
+• /ᴄʜᴀᴛꜱ - ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏғ ᴛʜᴇ ᴍʏ ᴄʜᴀᴛꜱ ᴀɴᴅ ɪᴅꜱ 
+• /ʟᴇᴀᴠᴇ  - ᴛᴏ ʟᴇᴀᴠᴇ ғʀᴏᴍ ᴀ ᴄʜᴀᴛ.
+• /ᴅɪꜱᴀʙʟᴇ  -  ᴅᴏ ᴅɪꜱᴀʙʟᴇ ᴀ ᴄʜᴀᴛ.
+• /ʙᴀɴ  - ᴛᴏ ʙᴀɴ ᴀ ᴜꜱᴇʀ.
+• /ᴜɴʙᴀɴ  - ᴛᴏ ᴜɴʙᴀɴ ᴀ ᴜꜱᴇʀ.
+• /ᴄʜᴀɴɴᴇʟ - ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏғ ᴛᴏᴛᴀʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟꜱ
+• /ʙʀᴏᴀᴅᴄᴀꜱᴛ - ᴛᴏ ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴀ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜꜱᴇʀꜱ"""
     STATUS_TXT = """<b>📁 𝙏𝙤𝙩𝙖𝙡 𝙁𝙞𝙡𝙚𝙨 : </b> <code>{}</code>
 <b>👤 𝙏𝙤𝙩𝙖𝙡 𝙐𝙨𝙚𝙧𝙨 : </b> <code>{}</code>
 <b>👥 𝙏𝙤𝙩𝙖𝙡 𝘾𝙝𝙖𝙩𝙨 : </b> <code>{}</code>
