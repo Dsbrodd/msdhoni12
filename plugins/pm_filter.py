@@ -490,6 +490,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "mettings":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='about')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.METTINGS_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "manuelfilter":
         buttons = [[
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='help'),
@@ -560,7 +570,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴘᴇʀꜱᴏɴᴀʟ', callback_data='personal')
         ], [
             InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ', callback_data='stats'),
-            InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ', callback_data='extra')
+            InlineKeyboardButton('ꜱᴇᴛᴛɪɴɢꜱ', callback_data='mettings')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close_data')
