@@ -442,7 +442,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'),
             InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅꜱ', callback_data='extra')
         ], [
-            InlineKeyboardButton('ғɪʟᴇ ꜱᴛᴏʀᴇ', callback_data='extra'),
+            InlineKeyboardButton('ғɪʟᴇ ꜱᴛᴏʀᴇ', callback_data='store'),
             InlineKeyboardButton('ᴘᴇʀꜱᴏɴᴀʟ', callback_data='extra')
         ], [
             InlineKeyboardButton('🏠 𝗛ᴏᴍᴇ', callback_data='start'),
@@ -520,6 +520,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.CONNECTION_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "store":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.FILESTORE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
