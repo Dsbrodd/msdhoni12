@@ -446,7 +446,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏꜱᴇ', callback_data='close_data'),
-            InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ', callback_data='next')
+            InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ', callback_data='best')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -557,7 +557,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "next":
+    elif query.data == "best":
         buttons = [[
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Film_hous'),
             InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/Film_housc')
@@ -566,7 +566,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.NEXT_TXT,
+            text=script.BEST_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
