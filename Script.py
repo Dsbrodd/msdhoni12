@@ -107,6 +107,7 @@ This module only works for my admins
 <b>📚 Available Commands</b>
 
 ◉ /batch - reply The file link in db channel"""
+    PERSONAL_TEXT = """<b>എന്തായാലും സ്റ്റാർട്ട് അടിച്ചതല്ലെ ഇനി ആ താഴെ കാണുന്ന നമ്മുടെ ഒഫീഷ്യൽ ചന്നെൽ കൂടി Subscribe ചെയ്തിട്ട് പൊക്കോ...🤣🤣.</b>"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
