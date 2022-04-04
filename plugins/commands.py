@@ -237,7 +237,7 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('𝙈𝙤𝙫𝙞𝙚 𝙂𝙧𝙤𝙪𝙥', url=f'https://t.me/TM_cinema_company')
+            InlineKeyboardButton('🌟  ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🌟', url=f'https://t.me/inline_film')
         ]
         ]
     await client.send_cached_media(
