@@ -543,7 +543,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "store":
         buttons = [[
-            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='help')
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='best')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -556,7 +556,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Film_hous'),
             InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/Film_housc')
         ], [
-            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/my_devs')
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', callback_data='owner')
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', callback_data='best')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -589,6 +590,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.EXTRAMOD_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "owner":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='best')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.OWNER_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
