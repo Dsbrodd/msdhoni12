@@ -551,8 +551,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "personal":
         buttons = [[
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Film_hous'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/Film_housc')
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/MULTIPLEmoviesoffi'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+eN6ukkVwZNIzYzU1')
         ], [
             InlineKeyboardButton('ᴏᴡɴᴇʀ', callback_data='owner'),
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='best')
