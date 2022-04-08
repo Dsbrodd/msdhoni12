@@ -118,9 +118,9 @@ Tʜɪꜱ ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋꜱ ғᴏʀ ᴍʏ ᴀᴅᴍɪɴ�
 • /ꜱᴇᴛᴛɪɴɢꜱ - Tᴏ ᴄᴏɴᴛʀᴏʟ ɢʀᴏᴜᴘ ꜱᴇᴛᴛɪɴɢꜱ ᴛᴏ ʙᴏᴛ ᴘᴍ"""
     OWNER_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : Aᴅɪᴛʜ ᴀᴋ
-• ᴜꜱᴇʀɴᴀᴍᴇ : @Brocklesnarqt
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href=https://t.me/my_devs>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : Dʜᴀɴᴀꜱᴇᴋᴀʀ
+• ᴜꜱᴇʀɴᴀᴍᴇ : @Dstamil_01
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href=https://t.me/mm_dev_channel>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
