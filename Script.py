@@ -25,8 +25,8 @@ class script(object):
 
 🔖 𝑸𝒖𝒐𝒕𝒆 : தமிழன் என்று சொல்லடா, தலை நிமிர்ந்து நில்லடா."""
     SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
+- This is not a open source project. 
+- Source - https://t.me/Dstamil_01  
 
 <b>DEVS:</b>
 - <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
@@ -45,7 +45,7 @@ Fɪʟᴛᴇʀ ɪꜱ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄ�
 - Eᴠᴀ Mᴀʀɪᴀ Sᴜᴘᴘᴏʀᴛꜱ ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴꜱ.
 
 𝟷. Tᴇʟᴇɢʀᴀᴍ ᴡɪʟʟ ɴᴏᴛ ᴀʟʟᴏᴡꜱ ʏᴏᴜ ᴛᴏ ꜱᴇɴᴅ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ, ꜱᴏ ᴄᴏɴᴛᴇɴᴛ ɪꜱ ᴍᴀɴᴅᴀᴛᴏʀʏ.
-𝟸. Eᴠᴀ Mᴀʀɪᴀ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
+𝟸. This ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 𝟹. Bᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ғᴏʀᴍᴀᴛ"""
     AUTOFILTER_TXT = """Help: <b>🛠️ AUTO FILTER</b>
 
